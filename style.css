@@ -155,14 +155,68 @@
 }
 
 /* There lives depend section */
-.depend {
+.depend,
+.servibe {
   padding: 130px 150px;
 }
 .reason-contents {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 70px;
   align-items: center;
 }
-.reason-img img {
+
+/* Get My Styles Section */
+.update-header {
+  padding: 100px 300px 0 300px;
+  text-align: center;
+}
+.subscribe-form {
+  width: 809px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff4d6;
+  padding: 75px 180px;
+  margin: 20px auto;
+}
+.subscribe-form input {
+  background: #d9d9d9;
+  padding: 15px 20px;
+  width: 70%;
+  border: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.subscribe-form input:focus {
+  border: 0;
+}
+.subscribe-btn {
+  padding: 15px 40px;
+  border: 0;
+  background: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  color: #ffffff;
+}
+
+/* Footer Section Styles */
+footer {
+  background-color: #0b0d17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 600px;
+  text-align: center;
+}
+.be-humble h2 {
+  font-weight: 400;
+  font-family: "Lobster";
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+  margin-bottom: 24px;
+}
+.be-humble p {
+  color: #d9dbe1;
 }
