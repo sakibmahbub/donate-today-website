@@ -68,7 +68,7 @@
   margin-top: 15px;
 }
 .amount-box {
-  background: #FAFAFA;
+  background: #fafafa;
   border-radius: 5px;
   padding: 40px 25px;
 }
@@ -114,4 +114,55 @@
   border: none;
   border-bottom: 2px solid #dadada;
   outline: none;
+}
+
+/* Donate Plan Area Styles */
+.donate-plan-header {
+  padding: 100px 300px 0 300px;
+  text-align: center;
+}
+.donate-plan-box {
+  display: flex;
+  padding: 0 150px;
+  margin-top: 30px;
+  gap: 24px;
+}
+.donate-purpose {
+  padding: 50px 20px;
+  border-radius: 5px;
+}
+.white {
+  background: rgba(79, 157, 166, 0.1);
+}
+.pink {
+  background: rgba(255, 89, 89, 0.1);
+}
+.brown {
+  background: #fff4d6;
+}
+.donate-purpose img {
+  width: 60px;
+  margin-bottom: 25px;
+}
+.donate-purpose h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+/* There lives depend section */
+.depend {
+  padding: 130px 150px;
+}
+.reason-contents {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.reason-img img {
 }
